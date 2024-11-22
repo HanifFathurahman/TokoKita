@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita - Kecantikan</title>
+    <link rel="icon" href="favicon/favicon.png" type="favicon  ">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <h1>TokoKita</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html" id="cart-link">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+<main>
+    <h2>Kategori: Kecantikan</h2>
+    <div class="product-grid">
+        <!-- Contoh produk -->
+        <div class="product-card">
+            <img src="img_produk/wardah.jpg" alt="Produk 5">
+            <h3>Wardah Crystal Secret Package</h3>
+            <p>Rp 365.000</p>
+            <button onclick="addToCart(365000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/ms-glow-men.jpg" alt="Produk 5">
+            <h3>MS Glow For Men Wajah Pria Package</h3>
+            <p>Rp 350.000</p>
+            <button onclick="addToCart(350000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/sunscreen.jpg" alt="Produk 5">
+            <h3>Skintific Matte Fit Serum Sunscreen</h3>
+            <p>Rp 101.000</p>
+            <button onclick="addToCart(101000)">Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan produk lainnya -->
+    </div>
+</main>
+<footer>
+    <p>© 2024 TokoKita.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

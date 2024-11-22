@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita - Peralatan Rumah Tangga</title>
+    <link rel="icon" href="favicon/favicon.png" type="favicon  ">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <h1>TokoKita</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html" id="cart-link">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+<main>
+    <h2>Kategori: Peralatan Rumah Tangga</h2>
+    <div class="product-grid">
+        <!-- Contoh produk -->
+        <div class="product-card">
+            <img src="img_produk/jam.png" alt="Produk 4">
+            <h3>Jam Vintage</h3>
+            <p>Rp 280.000</p>
+            <button onclick="addToCart(280000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/tv.jpg" alt="Produk 5">
+            <h3>LG 32 Inch LED</h3>
+            <p>Rp 2.916.500</p>
+            <button onclick="addToCart(2916500)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/rice-cooker.jpg" alt="Produk 6">
+            <h3>Sanken Rice Cooker</h3>
+            <p>Rp 526.000</p>
+            <button onclick="addToCart(526000)">Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan produk lainnya -->
+    </div>
+</main>
+<footer>
+    <p>© 2024 TokoKita.</p>
+</footer>
+</body>
+</html>

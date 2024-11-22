@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita - Kategori Pakaian</title>
+    <link rel="icon" href="favicon/favicon.png" type="favicon  ">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <h1>TokoKita</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html" id="cart-link">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+<main>
+    <h2>Kategori: Pakaian</h2>
+    <div class="product-grid">
+        <!-- Contoh produk -->
+        <div class="product-card">
+            <img src="img_produk/sepatu.jpg" alt="Produk 1">
+            <h3>Nike Air Jordan </h3>
+            <p>Rp 1.932.000</p>
+            <button onclick="addToCart(1932000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/jaket.jpg" alt="Jaket">
+            <h3>Jaket Casual</h3>
+            <p>Rp 150.000</p>
+            <button onclick="addToCart(1932000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/kemeja.jpg" alt="Kemeja">
+            <h3>Kemeja Pria</h3>
+            <p>Rp 115.000</p>
+            <button onclick="addToCart(1932000)">Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan produk lainnya -->
+    </div>
+</main>
+<footer>
+    <p>© 2024 TokoKita.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

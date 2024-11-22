@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita</title>
+    <link rel="icon" href="favicon/favicon.png" type="favicon  ">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>TokoKita</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html" id="cart-link">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<div class="container">
+    <main>
+        <h2>Daftar Produk</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="img_produk/sepatu.jpg" alt="Produk 1">
+                <h3>Nike Air Jordan </h3>
+                <p>Rp 1.932.000</p>
+                <button onclick="addToCart(1932000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/jaket.jpg" alt="Jaket">
+                <h3>Jaket Casual</h3>
+                <p>Rp 150.000</p>
+                <button onclick="addToCart(1932000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/kemeja.jpg" alt="Kemeja">
+                <h3>Kemeja Pria</h3>
+                <p>Rp 115.000</p>
+                <button onclick="addToCart(1932000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/jam.png" alt="Produk 4">
+                <h3>Jam Vintage</h3>
+                <p>Rp 280.000</p>
+                <button onclick="addToCart(280000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/tv.jpg" alt="Produk 5">
+                <h3>LG 32 Inch LED</h3>
+                <p>Rp 2.916.500</p>
+                <button onclick="addToCart(2916500)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/rice-cooker.jpg" alt="Produk 6">
+                <h3>Sanken Rice Cooker</h3>
+                <p>Rp 526.000</p>
+                <button onclick="addToCart(526000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/wardah.jpg" alt="Produk 7">
+                <h3>Wardah Crystal Secret Package</h3>
+                <p>Rp 365.000</p>
+                <button onclick="addToCart(365000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/ms-glow-men.jpg" alt="Produk 8">
+                <h3>MS Glow For Men Wajah Pria Package</h3>
+                <p>Rp 350.000</p>
+                <button onclick="addToCart(350000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/sunscreen.jpg" alt="Produk 9">
+                <h3>Skintific Matte Fit Serum Sunscreen</h3>
+                <p>Rp 101.000</p>
+                <button onclick="addToCart(101000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/samsung-s24.png" alt="Produk 10">
+                <h3>Samsung Galaxy S24 Ultra  (8/256)</h3>
+                <p>Rp 19.999.000</p>
+                <button onclick="addToCart(19999000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/monitor.jpg" alt="Produk 11">
+                <h3>Xiaomi Redmi Desktop Monitor 4K IPS</h3>
+                <p>Rp 3.100.000</p>
+                <button onclick="addToCart(3100000)">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <img src="img_produk/keyboard.jpg" alt="Produk 12">
+                <h3>Ajazz AK820 MAX Mechanical Keyboard</h3>
+                <p>Rp 1.219.000</p>
+                <button onclick="addToCart(1219000)">Beli Sekarang</button>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+        <h2>Kategori</h2>
+        <ul>
+            <li><a href="elektronik.html">Elektronik</a></li>
+            <li><a href="kecantikan.html">Kecantikan</a></li>
+            <li><a href="pakaian.html">Pakaian</a></li>
+            <li><a href="peralatan_rumah_tangga.html">Peralatan Rumah Tangga</a></li>
+        </ul>
+    </aside>
+</div>
+
+<footer>
+    <p>© 2024 TokoKita.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita - Elektronik</title>
+    <link rel="icon" href="favicon/favicon.png" type="favicon  ">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <h1>TokoKita</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="keranjang.html" id="cart-link">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+<main>
+    <h2>Kategori: Elektronik</h2>
+    <div class="product-grid">
+        <!-- Contoh produk -->
+        <div class="product-card">
+            <img src="img_produk/tv.jpg" alt="Produk 5">
+            <h3>LG 32 Inch LED</h3>
+            <p>Rp 2.916.500</p>
+            <button onclick="addToCart(2916500)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/rice-cooker.jpg" alt="Produk 6">
+            <h3>Sanken Rice Cooker</h3>
+            <p>Rp 526.000</p>
+            <button onclick="addToCart(526000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/samsung-s24.png" alt="Produk 10">
+            <h3>Samsung Galaxy S24 Ultra</h3>
+            <p>Rp 19.999.000</p>
+            <button onclick="addToCart(19999000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/monitor.jpg" alt="Produk 11">
+            <h3>Xiaomi Redmi Desktop Monitor 4K IPS</h3>
+            <p>Rp 3.100.000</p>
+            <button onclick="addToCart(3100000)">Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="img_produk/keyboard.jpg" alt="Produk 12">
+            <h3>Ajazz AK820 MAX Mechanical Keyboard</h3>
+            <p>Rp 1.219.000</p>
+            <button onclick="addToCart(1219000)">Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan produk lainnya -->
+    </div>
+</main>
+<footer>
+    <p>© 2024 TokoKita.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
