@@ -49,7 +49,7 @@ aside {
     flex: 1;
     background: #ffffff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
@@ -68,17 +68,17 @@ aside h2 {
 }
 
 .kategori-list li {
-    border: 1px solid #ddd; /* Garis batas */
-    border-radius: 5px;
+    border: 2px solid #ddd; /* Garis batas */
+    border-radius:15px;
     margin: 10px 0; /* Jarak antar item */
     transition: transform 0.3s, box-shadow 0.3s; /* Transisi saat hover */
 }
 
 .kategori-list li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #0c539e;
     display: block;
-    padding: 15px; /* Ruang dalam tautan */
+    padding: 20px; /* Ruang dalam tautan */
     text-align: center; /* Pusatkan teks */
     transition: background-color 0.3s, color 0.3s; /* Transisi saat hover */
 }
