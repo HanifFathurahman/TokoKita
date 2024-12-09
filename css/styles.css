@@ -31,7 +31,7 @@ main {
 }
 aside {
     flex: 1;
-    background: #fff;
+    background: #ffffff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -47,6 +47,11 @@ aside {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+.discount {
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+    margin-top: 5px;
 }
 .product-card img {
     max-width: 100%;
