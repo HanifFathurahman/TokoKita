@@ -51,32 +51,41 @@ aside {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Jarak atas */
+    margin-top: 20px;
 }
 
 aside h2 {
-    font-size: 1.5em; /* Ukuran font judul kategori */
-    margin-bottom: 15px; /* Jarak bawah judul */
-    text-align: center; /* Pusatkan teks */
-    color: #333; /* Warna teks */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
 }
 
 .kategori-list {
-    list-style-type: none; /* Menghapus bullet */
-    padding: 0; /* Menghapus padding default */
+    list-style-type: none;
+    padding: 0;
+    border-top: 2px solid #163ca5; /* Border atas untuk kategori */
 }
 
 .kategori-list li {
+    border: 1px solid #ddd; /* Garis batas */
+    border-radius: 5px;
     margin: 10px 0; /* Jarak antar item */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transisi saat hover */
 }
 
 .kategori-list li a {
-    text-decoration: none; /* Menghapus garis bawah */
-    color: #007BFF; /* Warna tautan */
-    padding: 10px; /* Ruang di dalam tautan */
-    display: block; /* Membuat tautan menjadi blok */
-    border-radius: 5px; /* Sudut melengkung pada tautan */
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+    padding: 15px; /* Ruang dalam tautan */
+    text-align: center; /* Pusatkan teks */
     transition: background-color 0.3s, color 0.3s; /* Transisi saat hover */
+}
+
+.kategori-list li:hover {
+    transform: translateY(-5px); /* Efek mengangkat saat hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
 }
 
 .kategori-list li a:hover {
